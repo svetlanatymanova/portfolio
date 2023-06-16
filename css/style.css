@@ -700,16 +700,16 @@ body {
   }
 }
 
-@supports (font-size: clamp( 1.25rem , 0.9375rem  +  1.5625vw , 2.8125rem )) {
+@supports (font-size: clamp( 1.625rem , 1.3875rem  +  1.1875vw , 2.8125rem )) {
   .list__title {
-    font-size: clamp( 1.25rem , 0.9375rem  +  1.5625vw , 2.8125rem );
+    font-size: clamp( 1.625rem , 1.3875rem  +  1.1875vw , 2.8125rem );
   }
 }
 
-@supports not (font-size: clamp( 1.25rem , 0.9375rem  +  1.5625vw , 2.8125rem )) {
+@supports not (font-size: clamp( 1.625rem , 1.3875rem  +  1.1875vw , 2.8125rem )) {
   .list__title {
     font-size: calc(
-			1.25rem + 1.5625 * (100vw - 20rem) / 100
+			1.625rem + 1.1875 * (100vw - 20rem) / 100
 		);
   }
 }
