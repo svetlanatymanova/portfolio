@@ -3994,11 +3994,25 @@ button.swiper-pagination-bullet {
 
 @media (max-width: 480px) {
   .main__title {
-    width: 75%;
+    width: 100%;
   }
 
   .section-portfolio {
-    width: 75%;
+    width: 100%;
+  }
+
+  .section-text {
+    padding: 7px 26px 32px 26px;
+  }
+
+  .swiper-button-prev,
+  .swiper-rtl .swiper-button-next {
+    left: 10px;
+  }
+
+  .swiper-button-next,
+  .swiper-rtl .swiper-button-prev {
+    right: 10px;
   }
 }
 
@@ -4015,10 +4029,6 @@ button.swiper-pagination-bullet {
 }
 
 @media (max-width: 460px) {
-  .section-text {
-    padding: 7px 26px 32px 26px;
-  }
-
   .list__img img {
     max-height: 240px;
   }
@@ -4048,14 +4058,6 @@ button.swiper-pagination-bullet {
 }
 
 @media (max-width: 400px) {
-  .main__title {
-    width: 72%;
-  }
-
-  .section-portfolio {
-    width: 72%;
-  }
-
   .list__img img {
     max-height: 210px;
   }
